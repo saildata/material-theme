@@ -1044,10 +1044,9 @@
 
     {
       "class": "label_control",
-      "color": [176, 190, 197],
-      "shadow_color": [24, 24, 24, 0],
-      "shadow_offset": [0, 0],
-      "font.bold": true
+      "color": [215, 215, 215],
+      "font.size": 12,
+      "font.bold": false
     },
 
       // Status bar labels
@@ -1055,7 +1054,7 @@
      {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [97, 97, 97, 200],
+        "color": [200, 200, 200],
         "font.bold": false
     },
 
