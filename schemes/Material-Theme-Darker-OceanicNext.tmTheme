@@ -25,7 +25,7 @@
   <string>oceanic.next.dark</string>
   <key>settings</key>
   <array>
-    <dict>
+<dict>
       <key>settings</key>
       <dict>
         <key>background</key>
@@ -33,7 +33,7 @@
         <key>caret</key>
         <string>#FFCC00</string>
         <key>foreground</key>
-        <string>#80CBC4</string>
+        <string>#eeffffff</string>
         <key>invisibles</key>
         <string>#65737e</string>
         <key>lineHighlight</key>
@@ -62,22 +62,11 @@
       <key>name</key>
       <string>Comments</string>
       <key>scope</key>
-      <string>comment, punctuation.definition.comment, text.cancelled, meta.punctuation.separator, markup.strikethrough</string>
+      <string>comment, punctuation.definition.comment</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#444444</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>notes</string>
-      <key>scope</key>
-      <string>notes</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#8EACE3</string>
+        <string>#65737e</string>
       </dict>
     </dict>
     <dict>

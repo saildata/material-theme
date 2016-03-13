@@ -9,7 +9,7 @@
   <key>gutterSettings</key>
   <dict>
     <key>background</key>
-    <string>#212121</string>
+    <string>#263238</string>
     <key>divider</key>
     <string>#343d46</string>
     <key>foreground</key>
@@ -33,7 +33,7 @@
         <key>caret</key>
         <string>#FFCC00</string>
         <key>foreground</key>
-        <string>#80CBC4</string>
+        <string>#eeffff</string>
         <key>invisibles</key>
         <string>#65737e</string>
         <key>lineHighlight</key>
@@ -62,22 +62,11 @@
       <key>name</key>
       <string>Comments</string>
       <key>scope</key>
-      <string>comment, punctuation.definition.comment, text.cancelled, meta.punctuation.separator, markup.strikethrough</string>
+      <string>comment, punctuation.definition.comment</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#546E7A</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>notes</string>
-      <key>scope</key>
-      <string>notes</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#8EACE3</string>
+        <string>#65737e</string>
       </dict>
     </dict>
     <dict>

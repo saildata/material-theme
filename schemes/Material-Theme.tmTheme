@@ -94,7 +94,7 @@
       <key>name</key>
       <string>Punctuation</string>
       <key>scope</key>
-      <string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string>
+      <string>punctuation.definition.string, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -149,7 +149,7 @@
       <key>name</key>
       <string>Functions</string>
       <key>scope</key>
-      <string>entity.name.function, meta.require, support.function.any-method, meta.function-call, support.function, keyword.other.special-method, meta.block-level, meta.function-call.method.with-arguments variable.function</string>
+      <string>entity.name.function, meta.require, support.function.any-method, meta.function-call, support.function, keyword.other.special-method, meta.block-level, meta.function-call.method.with-arguments variable.function, source.js meta.function-call.method.without-arguments.js variable.function.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -282,18 +282,18 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>name</key>
       <string>Tags</string>
       <key>scope</key>
-      <string>entity.name.tag</string>
+      <string>entity.name.tag, text.html.basic meta.tag.other.html entity.other.attribute-name.html</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#ff5370ff</string>
+        <string>#ff5370</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
       <string>Attributes</string>
       <key>scope</key>
-      <string>entity.other.attribute-name</string>
+      <string>entity.other.attribute-name, meta.tag.any.html entity.other.attribute-name.html, text.html.basic meta.tag.other.html entity.other.attribute-name.html</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -879,7 +879,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>name</key>
       <string>Support functions</string>
       <key>scope</key>
-      <string>meta.function-call support.type</string>
+      <string>meta.function-call support.type, support.type</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -905,7 +905,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#DDDDDD</string>
+        <string>#ff5370</string>
       </dict>
     </dict>
     <dict>
@@ -934,7 +934,18 @@ meta.property-value support.constant.named-color.css</string>
       <key>name</key>
       <string>JSON: Value</string>
       <key>scope</key>
-      <string>source.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json</string>
+      <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json,source.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#b2ccd6</string>
+        </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JSON: Value Boolean</string>
+      <key>scope</key>
+      <string>source.json meta.structure.dictionary.json meta.structure.dictionary.value constant.language</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -945,7 +956,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>name</key>
       <string>JSON: Key</string>
       <key>scope</key>
-      <string>source.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json, source.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json</string>
+      <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta meta.structure.dictionary.json string.quoted.double.json,source.json meta meta.structure.dictionary.json string.quoted.double.json,source.json meta.structure.dictionary.json string.quoted.double.json</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -976,9 +987,9 @@ meta.property-value support.constant.named-color.css</string>
     </dict>
     <dict>
       <key>name</key>
-      <string>Elixir: Atom</string>
+      <string>Symbols</string>
       <key>scope</key>
-      <string>source.elixir constant.other.symbol.elixir</string>
+      <string>source.elixir constant.other.symbol.elixir, source.ruby constant.other.symbol</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -1027,6 +1038,24 @@ meta.property-value support.constant.named-color.css</string>
       <dict>
         <key>foreground</key>
         <string>#ffcb6b</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>scope</key>
+      <string>constant.numeric.line-number.find-in-files - match, text.find-in-files constant.numeric.line-number.find-in-files</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#37474F</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>scope</key>
+      <string>entity.name.filename.find-in-files, text.find-in-files constant.numeric.line-number.match.find-in-files</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFEB95</string>
       </dict>
     </dict>
   </array>
